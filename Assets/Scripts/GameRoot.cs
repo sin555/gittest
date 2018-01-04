@@ -7,7 +7,7 @@ public class GameRoot : MonoBehaviour {
     [SerializeField] GameObject button = null;  // ボタン
     [SerializeField] GameObject text = null;    // テキスト
 
-    private int count = 0;
+    private int count = 0;  // カウンタ
 
     // Use this for initialization
     void Start () {
